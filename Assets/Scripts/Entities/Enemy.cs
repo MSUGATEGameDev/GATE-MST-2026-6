@@ -214,11 +214,18 @@ public class Enemy : Entity
             }
             
             StartCoroutine(Despawn());
+
         }
     }
     IEnumerator Despawn()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(1);
+        try
+        {
+            GetComponent<CapsuleCollider>().enabled = false;
+        }
+        catch { }
+        yield return new WaitForSeconds(4);
         Destroy(gameObject);
     }
 
