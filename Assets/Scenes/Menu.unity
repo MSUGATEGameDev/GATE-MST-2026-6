@@ -1706,13 +1706,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7460507922178101452, guid: 6bcbd75a4bd4dba45802087238127d31, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6301760703050895150, guid: 6bcbd75a4bd4dba45802087238127d31, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bcbd75a4bd4dba45802087238127d31, type: 3}
 --- !u!1 &963911769
 GameObject:
@@ -1934,13 +1935,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC
       objectReference: {fileID: 0}
+    - target: {fileID: 7460507922178101452, guid: 6bcbd75a4bd4dba45802087238127d31, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6301760703050895150, guid: 6bcbd75a4bd4dba45802087238127d31, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bcbd75a4bd4dba45802087238127d31, type: 3}
 --- !u!1 &968488580
 GameObject:
