@@ -76,7 +76,7 @@ public static class BuildScripts
     [MenuItem("Build/WebGL")]
     public static void BuildWebGL()
     {
-        BuildForTarget(BuildTarget.WebGL, "/docs");
+        BuildForTarget(BuildTarget.WebGL, "docs/");
     }
 
     // Helper to validate and log the build result
